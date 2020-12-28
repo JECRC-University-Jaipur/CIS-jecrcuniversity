@@ -1,4 +1,4 @@
-<h1> Project Name :Online Attendance Management System for Google Meet</h1>
+<h1> Online Attendance Management System for Google Meet</h1>
 <h3>Description About the Idea:-</h3>
 </br>
 Due to these harsh conditions of the pandemic, all our classes are shifted online by using google meet. 
