@@ -1,8 +1,8 @@
 # Team-"ADYANT"
 - Aakriti
-- Ananya Sharma
 - Kirti Singh
 - Jheel Soni
+- Ananya Sharma
 
 ## Problems coming in the path of education.
 
