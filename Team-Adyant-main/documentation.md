@@ -1,10 +1,10 @@
-# team-"ADYANT"
+# Team-"ADYANT"
 - Aakriti
 - Ananya Sharma
 - Kirti Singh
 - Jheel Soni
 
-## problems coming in the path of education.
+## Problems coming in the path of education.
 
 - Transforming learning into Amazing e-learning Experiences
 - Lack Of Learner Motivation And Engagement
@@ -32,7 +32,7 @@ In this quiz, we would be covering the real-life problems which would be solved 
 We will be giving some certificates at the end of quiz and even planning to introduce some interesting badges in our quizzes.
 We even created a chatbot for users convenience here is a glimpse of it.
 
-## For more details you can do for:
+## For more details:(Presentation link)
 https://docs.google.com/presentation/d/1Lh7U_u3uFEE_MjUuWqdAvR91y5NQnu8X/edit#slide=id.p11
 
 ###### Technical Stack
