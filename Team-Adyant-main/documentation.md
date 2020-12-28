@@ -38,3 +38,10 @@ https://docs.google.com/presentation/d/1Lh7U_u3uFEE_MjUuWqdAvR91y5NQnu8X/edit#sl
 ###### Technical Stack
 - HTML
 - CSS
+
+## Ways to host our project on the localhost
+- Download the code in zip formate
+- Extract all the files
+- Open the web.html file in chrome or edge 
+- Then you'll see our home page
+- Select your age group and dive into the new learning. Click on the picture to take quiz.
