@@ -1,7 +1,7 @@
 # Google-Meet-Attendance-System
 
 ## Requirements:-
-    * Python
+    * Python 3.7
     * Chrome browser
 
 ## Required python library:-
