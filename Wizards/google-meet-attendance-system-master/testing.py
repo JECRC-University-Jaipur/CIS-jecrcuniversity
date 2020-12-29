@@ -22,11 +22,20 @@ def attendance():
     print("meeting started ..")
     try:
         meet = Meeting()
-    # login.do_login(meet.driver,headless=False)abdfghinop
+        # login.do_login(meet.driver,headless=False)abdfghinop
         login.do_login(meet.driver)
         meet.enter(config.meeting_url)
         meet.open_sidebar()
         meet.close()
+        payload = {
+            "section": whconfig["section"],
+            "subject": whconfig["subject"],
+            "semester": whconfig["semester"],
+            "list": whconfig["meeting_data"][0],
+        }
+        try:
+            r = requests.post("http://localhost:5000/api/v1/product", json=payload)
+            print("Response", r)
         eel.render(whconfig["meeting_data"])()
         print(whconfig["meeting_data"][0])
     except:
