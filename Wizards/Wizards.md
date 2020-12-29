@@ -14,15 +14,14 @@ Python, JavaScript, HTML, CSS, Automation using Selenium, MongoDB
  Download Google-Meet-Attendance-System file on your system and install the required python libraries.</br>
  Requirements:-</br>
     * Python 3.7
-    * Chrome browser
+    * Chrome browser</br>
  Required python library:-</br>
  1. Selenium
-
 pip install selenium
 
  2.  Eel
-
-pip install eel</br>
+pip install eel
+</br>
 
 
  Finally Run render.py file</br>
