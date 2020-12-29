@@ -19,7 +19,7 @@ def do_login(driver, headless=True):
     sleep(10)
     driver.find_element_by_xpath('//*[@id="openid-buttons"]/button[1]').click()
     print("stackoverflow button clicked")
-    driver.save_screenshot("google.png")
+    # driver.save_screenshot("google.png")
     authcheck = "oauth2" in driver.current_url
     print(authcheck, driver.current_url)
     if authcheck == True:
@@ -32,7 +32,7 @@ def do_login(driver, headless=True):
             "return document.getElementsByTagName('body')[0].innerHTML"
         )
         print(html)
-        driver.save_screenshot("google1.png")
+        # driver.save_screenshot("google1.png")
         driver.find_element_by_xpath('//input[@type="email"]').send_keys(config.email)
         driver.find_element_by_xpath('//*[@id="identifierNext"]').click()
         element_present = EC.element_to_be_clickable(
@@ -43,7 +43,7 @@ def do_login(driver, headless=True):
             config.password
         )
         driver.find_element_by_xpath('//*[@id="passwordNext"]').click()
-        driver.save_screenshot("google2.png")
+        # driver.save_screenshot("google2.png")
 
     if authcheck == False:
         element = WebDriverWait(driver, 100).until(
@@ -55,7 +55,7 @@ def do_login(driver, headless=True):
         driver.find_element(By.CSS_SELECTOR, "input[id='next']").click()
         print("email entered")
 
-        driver.save_screenshot("google1.png")
+        # driver.save_screenshot("google1.png")
         element_present = EC.element_to_be_clickable(
             (By.CSS_SELECTOR, "input[id='password']")
         )
@@ -65,7 +65,7 @@ def do_login(driver, headless=True):
         )
         driver.find_element(By.CSS_SELECTOR, "input[id='submit']").click()
         print("password entered")
-        driver.save_screenshot("google2.png")
+        # driver.save_screenshot("google2.png")
 
     element_present = EC.element_to_be_clickable(
         (By.CSS_SELECTOR, "[class='-logo js-gps-track']")
