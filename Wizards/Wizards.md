@@ -19,8 +19,8 @@ Python, JavaScript, HTML, CSS, Automation using Selenium, MongoDB
  1. Selenium
 pip install selenium
 
- 2.  Eel
-pip install eel
+  2.  Eel 
+ pip install eel</br>
  Finally Run render.py file</br>
 
 
