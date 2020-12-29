@@ -21,7 +21,6 @@ pip install selenium
 
  2.  Eel
 pip install eel
-</br>
  Finally Run render.py file</br>
 
 
