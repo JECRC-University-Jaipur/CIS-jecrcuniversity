@@ -80,7 +80,7 @@ class Meeting:
     def open_sidebar(self):
         # main screen of meeting
         print("waiting to enter into meeting")
-        self.driver.save_screenshot("enter.png")
+        # self.driver.save_screenshot("enter.png")
         element_present = EC.presence_of_element_located(
             (By.CSS_SELECTOR, "[class=NzPR9b] [role=button]:first-of-type")
         )
@@ -113,7 +113,7 @@ class Meeting:
             (By.CSS_SELECTOR, config.tab_panel)
         )
         WebDriverWait(self.driver, config.timeout).until(element_present)
-        add_data = self.driver.find_elements(By.CSS_SELECTOR, ".Dxboad")
+        add_data = self.driver.find_elements(By.CSS_SELECTOR, "[role=listitem]")
         names = []
         self.driver.save_screenshot("people.png")
         sr, cl, sw = self.driver.execute_script(
@@ -132,7 +132,7 @@ class Meeting:
         count = 0
         while sr > (-cl):
             self.driver.save_screenshot(f"people{count}.png")
-            add_data = self.driver.find_elements(By.CSS_SELECTOR, ".Dxboad")
+            add_data = self.driver.find_elements(By.CSS_SELECTOR, "[role=listitem]")
             for i in add_data:
                 names.append(i.text)
             print(names)
