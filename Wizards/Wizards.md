@@ -11,24 +11,21 @@ Tech Spark:-
 Python, JavaScript, HTML, CSS, Automation using Selenium, MongoDB
 
 <h3>How to Deploy this project:-</h3>
-Download Google-Meet-Attendance-System file on your system and install the required python libraries.
-
-## Requirements:-
+### Download Google-Meet-Attendance-System file on your system and install the required python libraries.
+### Requirements:-
     * Python 3.7
     * Chrome browser
-
-## Required python library:-
-1. Selenium
+### Required python library:-
+ 1. Selenium
 ```bash
 pip install selenium
 ```
-
-2.  Eel
+ 2.  Eel
 ```bash
 pip install eel
 ```
 
-Finally Run render.py file
+### Finally Run render.py file
 
 
 
