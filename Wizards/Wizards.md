@@ -16,12 +16,13 @@ Python, JavaScript, HTML, CSS, Automation using Selenium, MongoDB
     * Python 3.7
     * Chrome browser</br>
  Required python library:-</br>
- 1. Selenium
-pip install selenium
+ 1. Selenium</br>
+"pip install selenium"
 
-  2.  Eel 
- pip install eel</br>
- Finally Run render.py file</br>
+ 2.  Eel </br>
+ "pip install eel"</br>
+ 
+ Finally Run render.py file </br>
 
 
 
