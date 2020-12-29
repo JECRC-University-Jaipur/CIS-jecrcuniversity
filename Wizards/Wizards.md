@@ -13,14 +13,14 @@ Python, JavaScript, HTML, CSS, Automation using Selenium, MongoDB
 <h3>How to Deploy this project:-</h3>
  Download Google-Meet-Attendance-System file on your system and install the required python libraries.</br>
  Requirements:-</br>
-    * Python 3.7
+    * Python 3.7</br>
     * Chrome browser</br>
  Required python library:-</br>
- 1. Selenium</br>
-"pip install selenium"
+  *Selenium</br>
+    "pip install selenium"
 
- 2.  Eel </br>
- "pip install eel"</br>
+  *Eel </br>
+    "pip install eel"</br>
  
  Finally Run render.py file </br>
 
