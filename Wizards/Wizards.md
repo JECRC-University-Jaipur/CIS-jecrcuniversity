@@ -10,6 +10,27 @@ So here we have created an online attendance management system that automaticall
 Tech Spark:-
 Python, JavaScript, HTML, CSS, Automation using Selenium, MongoDB
 
+<h3>How to Deploy this project:-</h3>
+Download Google-Meet-Attendance-System file on your system and install the required python libraries.
+
+## Requirements:-
+    * Python 3.7
+    * Chrome browser
+
+## Required python library:-
+1. Selenium
+```bash
+pip install selenium
+```
+
+2.  Eel
+```bash
+pip install eel
+```
+
+Finally Run render.py file
+
+
 
 Link to Presentation:
 <a href ="https://www.canva.com/design/DAEL6UgrDvY/DnLMuBFEd8JaMpOT_FzMJw/view?utm_content=DAEL6UgrDvY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Click for Presentation</a>
