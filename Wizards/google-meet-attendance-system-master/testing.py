@@ -36,8 +36,8 @@ def attendance():
         try:
             r = requests.post("http://localhost:5000/api/v1/product", json=payload)
             print("Response", r)
-            except:
-                 pass
+        except:
+            pass
         eel.render(whconfig["meeting_data"])()
         print(whconfig["meeting_data"][0])
     except:
