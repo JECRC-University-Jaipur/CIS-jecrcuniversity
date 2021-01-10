@@ -1,0 +1,109 @@
+.box {
+    width: 100%;
+}
+
+.boxbar {
+    border: 1px solid black;
+    padding: 6px;
+    background: black;
+}
+
+.boxbar address a {
+    float: right;
+    text-decoration: none;
+    color: white;
+}
+
+.boxbar i {
+    color: white;
+    width: 30px;
+}
+
+.quote {
+    font-size: 30px;
+    padding-left: 300px;
+    padding-top: 10px;
+}
+
+.list {
+    border-bottom-width: 900px;
+    border-bottom: 1px solid darkgray;
+    padding: 6px;
+    float: right;
+}
+
+.list ul li {
+    float: left;
+    text-align: center;
+    width: 70px;
+    list-style-type: none;
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.list ul li a:hover {
+    border-bottom: 4px solid brown;
+    padding: 2px;
+}
+
+body {
+    background: lightyellow;
+    background-size: cover;
+}
+
+.h2 {
+    float: left;
+}
+
+.juvenile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    width: 20%;
+    padding-top: 300px;
+}
+
+.angels {
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 110px;
+    font-size: 16px;
+}
+
+.goldenagers {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 16px;
+    width: 20%;
+}
+
+.box1 {
+    color: black;
+}
+
+.box2 {
+    border-radius: 10%;
+    padding: 1px;
+    width: 190px;
+}
+
+.box3 {
+    color: black;
+}
+
+.okay {
+    padding-right: 2px;
+    color: white;
+}
+
+.writter {
+    color: lightsalmon;
+}
